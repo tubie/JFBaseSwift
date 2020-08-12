@@ -18,6 +18,8 @@
 		E8468B0D24D0772100E7105C /* JFHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8468B0924D0772100E7105C /* JFHomeTableViewCell.swift */; };
 		E8468B0E24D0772100E7105C /* JFHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8468B0A24D0772100E7105C /* JFHomeViewController.xib */; };
 		E8468B1124D0784900E7105C /* JFFunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8468B1024D0784900E7105C /* JFFunctionViewController.swift */; };
+		E8468B1524E39DE100E7105C /* JFCollectionTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8468B1324E39DE100E7105C /* JFCollectionTypesViewController.swift */; };
+		E8468B1624E39DE200E7105C /* JFCollectionTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8468B1424E39DE100E7105C /* JFCollectionTypesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		E8468B0924D0772100E7105C /* JFHomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFHomeTableViewCell.swift; sourceTree = "<group>"; };
 		E8468B0A24D0772100E7105C /* JFHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFHomeViewController.xib; sourceTree = "<group>"; };
 		E8468B1024D0784900E7105C /* JFFunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFFunctionViewController.swift; sourceTree = "<group>"; };
+		E8468B1324E39DE100E7105C /* JFCollectionTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFCollectionTypesViewController.swift; sourceTree = "<group>"; };
+		E8468B1424E39DE100E7105C /* JFCollectionTypesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFCollectionTypesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		E8468AF124D076D700E7105C /* JFBaseSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E8468B1224E29E5F00E7105C /* Fundation */,
 				E8468B0F24D0782A00E7105C /* Function */,
 				E8468B0624D0772100E7105C /* Home */,
 				E8468AF224D076D700E7105C /* AppDelegate.swift */,
@@ -96,6 +101,15 @@
 				E8468B1024D0784900E7105C /* JFFunctionViewController.swift */,
 			);
 			path = Function;
+			sourceTree = "<group>";
+		};
+		E8468B1224E29E5F00E7105C /* Fundation */ = {
+			isa = PBXGroup;
+			children = (
+				E8468B1324E39DE100E7105C /* JFCollectionTypesViewController.swift */,
+				E8468B1424E39DE100E7105C /* JFCollectionTypesViewController.xib */,
+			);
+			path = Fundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8468B1624E39DE200E7105C /* JFCollectionTypesViewController.xib in Resources */,
 				E8468B0B24D0772100E7105C /* JFHomeTableViewCell.xib in Resources */,
 				E8468B0E24D0772100E7105C /* JFHomeViewController.xib in Resources */,
 				E8468AFF24D076DE00E7105C /* LaunchScreen.storyboard in Resources */,
@@ -176,6 +191,7 @@
 				E8468B0C24D0772100E7105C /* JFHomeViewController.swift in Sources */,
 				E8468AF324D076D700E7105C /* AppDelegate.swift in Sources */,
 				E8468B1124D0784900E7105C /* JFFunctionViewController.swift in Sources */,
+				E8468B1524E39DE100E7105C /* JFCollectionTypesViewController.swift in Sources */,
 				E8468AF524D076D700E7105C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import UIKit
 class JFHomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    var titleArray = ["函数","数据遍历",]
+    var titleArray = ["函数","集合类型",]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +46,9 @@ class JFHomeViewController: UIViewController,UITableViewDelegate,UITableViewData
         switch indexPath.row {
         case 0:
             navigationController?.pushViewController(JFFunctionViewController.init(), animated: true)
+            
+            case 1:
+            navigationController?.pushViewController(JFCollectionTypesViewController.init(), animated: true)
             
         default:
             print(indexPath.row)
