@@ -70,7 +70,7 @@
 		E8468AF124D076D700E7105C /* JFBaseSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E8468B1224E29E5F00E7105C /* Fundation */,
+				E8468B1224E29E5F00E7105C /* Foundation */,
 				E8468B0F24D0782A00E7105C /* Function */,
 				E8468B0624D0772100E7105C /* Home */,
 				E8468AF224D076D700E7105C /* AppDelegate.swift */,
@@ -103,13 +103,13 @@
 			path = Function;
 			sourceTree = "<group>";
 		};
-		E8468B1224E29E5F00E7105C /* Fundation */ = {
+		E8468B1224E29E5F00E7105C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
 				E8468B1324E39DE100E7105C /* JFCollectionTypesViewController.swift */,
 				E8468B1424E39DE100E7105C /* JFCollectionTypesViewController.xib */,
 			);
-			path = Fundation;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
